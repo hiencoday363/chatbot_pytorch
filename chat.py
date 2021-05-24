@@ -27,8 +27,8 @@ model.load_state_dict(model_state)
 model.eval()
 
 
-bot_name = 'B.O.T'
-print("let's chat, type `quit` to exit")
+# bot_name = 'B.O.T'
+# print("let's chat, type `quit` to exit")
 
 
 def chatbot(sentence):

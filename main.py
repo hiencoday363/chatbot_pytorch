@@ -11,9 +11,12 @@ while count >= 0:
 		sentence = input('you: ')
 
 	if sentence == 'exit':
+		print(f'bot: goodbye')
 		break
 
 	res = chatbot(sentence)
 	print(f'bot: {res}')
 	count += 1
 
+# import torch
+# print(torch.__version__)
